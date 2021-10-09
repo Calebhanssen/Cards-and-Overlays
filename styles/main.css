@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+picture img {
+  width: 100%;
+}
+
+header svg {
+  stroke: #3d2496;
+  width: 40px;
+  height: 40px;
+}
+
+/* .button {
+  background-color: var(--main-color);
+  border-radius: 2px;
+  color: rgb(87, 31, 31);
+  display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+  padding: 8px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+} */
