@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.main {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 50rem;
+}
+
 body {
   font-family: "Cabin", sans-serif;
   color: #333;
