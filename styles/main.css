@@ -4,12 +4,14 @@
 
 body {
   font-family: "Cabin", sans-serif;
+  color: #333;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
+  color: rgb(87, 66, 40);
 }
 picture img {
   width: 100%;
@@ -34,7 +36,16 @@ header svg {
     background-color 426ms cubic-bezier(0.4, 0.9, 0.3, 1);
 }
 
+.button:link {
+  color: blue;
+}
+.button:visited {
+  color: purple;
+}
 .button:hover {
   background-color: #fff;
   color: #000;
+}
+a:active {
+  color: yellow;
 }
