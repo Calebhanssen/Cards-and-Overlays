@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 0.2rem 0 1rem;
+  line-height: 1.3;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
 .main {
   margin: 0 auto;
   padding: 0 1rem;
@@ -54,4 +64,65 @@ header svg {
 }
 a:active {
   color: yellow;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--overlay-background-color);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  margin-top: 2vh;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+.hero p {
+  text-align: center;
+  color: var(--background-color);
+  font-size: 1rem;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+/* Card styles */
+.cards {
+  display: flex;
+}
+
+.card {
+  position: relative;
+}
+
+.cards .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--overlay-background-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.227), rgba(0, 0, 0, 0.5));
+  transition: opacity 300ms;
+}
+
+.cards p {
+  color: var(--background-color);
+  text-align: center;
+  margin: 0.25rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.card:hover .overlay {
+  opacity: 0;
 }
