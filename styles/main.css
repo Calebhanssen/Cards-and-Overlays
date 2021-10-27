@@ -3,8 +3,9 @@
 }
 
 p {
-  margin: 0.2rem 0 1rem;
+  margin: 1.2rem 0 1rem;
   line-height: 1.3;
+  margin-left: 2rem;
 }
 
 img {
@@ -13,12 +14,13 @@ img {
 }
 
 .main {
-  margin: 0 auto;
-  padding: 0 1rem;
   max-width: 50rem;
+  align-self: center;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Cabin", sans-serif;
   color: #333;
 }
@@ -28,6 +30,7 @@ h2,
 h3 {
   font-family: "Playfair Display", serif;
   color: rgb(87, 66, 40);
+  margin-left: 2rem;
 }
 picture img {
   width: 100%;
@@ -50,6 +53,7 @@ header svg {
   transition: color 426ms cubic-bezier(0.4, 0.9, 0.3, 1),
     border-color 426ms cubic-bezier(0.4, 0.9, 0.3, 1),
     background-color 426ms cubic-bezier(0.4, 0.9, 0.3, 1);
+  margin-left: 2rem;
 }
 
 .button:link {
