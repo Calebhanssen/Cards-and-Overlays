@@ -75,6 +75,10 @@ a:active {
 }
 
 .hero .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -86,13 +90,10 @@ a:active {
 .hero h1 {
   font-size: 2rem;
   margin: 0;
-  text-align: center;
-  margin-top: 2vh;
   text-shadow: 2px 2px 4px rgb(255, 255, 255);
 }
 
 .hero p {
-  text-align: center;
   color: var(--background-color);
   font-size: 1rem;
   text-shadow: 2px 2px 4px rgb(255, 255, 255);
