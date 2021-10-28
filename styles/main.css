@@ -16,6 +16,7 @@ img {
   max-width: 50rem;
   align-self: center;
   margin: 0 2rem;
+  padding: 1.5rem;
 }
 
 body.main main {
