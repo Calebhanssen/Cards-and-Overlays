@@ -31,9 +31,16 @@ body {
   color: #333;
 }
 
+:root {
+  --text-color: #342517;
+  --background-color: #f2efe7;
+  --heading-color: #556f91;
+  --heading-color-opacity: rgba(85, 111, 145, 0.3);
+  --overlay-background-color: rgba(0, 0, 0, 0.3);
+}
 h1,
 h2,
-h3 {
+h3 {S
   font-family: "Playfair Display", serif;
   color: rgb(87, 66, 40);
 }
