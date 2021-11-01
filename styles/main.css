@@ -12,14 +12,14 @@ img {
   display: block;
 }
 
-.main {
+main {
   max-width: 50rem;
   align-self: center;
   margin: 0 2rem;
   padding: 0rem;
 }
 
-body.main main {
+body.body main {
   max-width: 70rem;
 }
 
@@ -40,12 +40,6 @@ h3 {
 
 picture img {
   width: 100%;
-}
-
-header svg {
-  stroke: #0a090a;
-  width: 40px;
-  height: 40px;
 }
 
 .form img {
@@ -106,21 +100,24 @@ a:active {
   color: yellow;
 }
 
+/* Hero Image */
 .hero {
   position: relative;
+  width: 100%;
 }
 
 .hero .overlay {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1.5rem;
-  position: absolute;
+  margin-top: 1rem;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: var(--overlay-background-color);
+  padding: 0.25;
 }
 
 .hero h1 {
@@ -136,7 +133,7 @@ a:active {
   text-shadow: 2px 2px 4px rgb(255, 255, 255);
 }
 
-/* panel class */
+/* panel class for index */
 .panel {
   display: flex;
   flex-direction: column;
