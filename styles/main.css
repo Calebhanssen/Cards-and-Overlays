@@ -48,6 +48,10 @@ header svg {
   height: 40px;
 }
 
+.form img {
+  width: 100px;
+}
+
 header ul {
   display: flex;
   list-style-type: none;
@@ -186,7 +190,7 @@ a:active {
 }
 
 .card:hover .overlay {
-  opacity: 0;
+  opacity: ;
 }
 
 @media (min-width: 700px) {
